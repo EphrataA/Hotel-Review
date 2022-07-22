@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+  {% include 'review/head.html' %}
+
+<body>
+    <!-- Team Section -->
+<div id="team">
+    <div class="container">
+      <div id="row">
+        <div class="col-md-6">
+          <div class="col-md-10 col-md-offset-1">
+            <div class="section-title">
+              <h2>Skylight Hotel</h2>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. 
+              Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="team-img"><img src="{% static 'img/skylight.jpg' %}" alt="..."></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+<div class="contain">
+    <div class="post">
+        <div class="text">Thanks for rating us!!</div>
+    </div>
+    <div class="star-widget">
+        <input type="radio" name="rate" id="rate-5">
+        <label for="rate-5" class="fa-solid fa-star"></label>
+        <input type="radio" name="rate" id="rate-4">
+        <label for="rate-4" class="fa-solid fa-star"></label>
+        <input type="radio" name="rate" id="rate-3">
+        <label for="rate-3" class="fa-solid fa-star"></label>
+        <input type="radio" name="rate" id="rate-2">
+        <label for="rate-2" class="fa-solid fa-star"></label>
+        <input type="radio" name="rate" id="rate-1">
+        <label for="rate-1" class="fa-solid fa-star"></label>
+        <br>
+        <form action="#">
+        <div class="textarea">
+          <textarea cols="30" rows="4" placeholder="Describe your experience..."></textarea>
+        </div>
+        <div class="btn">
+          <button type="submit">submit</button>
+        </div>
+    </form>
+        </div>
+    </div>
+   
+       
+        <!-- Vendor JS Files -->
+{% include 'review/scripts.html' %}
+
+</body>
+</html>

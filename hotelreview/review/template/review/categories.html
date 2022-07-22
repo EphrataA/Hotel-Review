@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+{% include 'review/head.html' %}
+
+<body>
+
+  <!-- ======= Header ======= -->
+{% include 'review/header.html' %}
+  <!-- End Header -->
+
+  
+<!-- Categories -->
+<div id="restaurant-menu">
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>categories</h2>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6">
+          <div class="menu-section">
+            <h2 class="menu-section-title">Hotels</h2>
+            <div class="menu-item">
+              <img src="{% static 'img/pension.jpg' %}" class="img-responsive" alt="">
+              <div class="menu-item-name">Guest Houeses</div>
+              <a href="{% static 'page_url' %} " style="background-color: rgb(21, 95, 155);">
+                <button>View</button>
+              </a>
+            </div>
+          </div>
+            </div>
+        <div class="col-xs-12 col-sm-6">
+          <div class="menu-section">
+            <h2 class="menu-section-title">Cafe and restaurants</h2>
+            <div class="menu-item">
+              <img src="{% static 'img/dining.jpg' %}" class="img-responsive" alt="">
+              <div class="menu-item-name">Restaurants</div>
+              <a href="page.html" style="background-color: rgb(21, 95, 155);">
+                <button>View</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6">
+          <div class="menu-section">
+            <h2 class="menu-section-title">Entertainment Center</h2>
+            <div class="menu-item">
+              <img src="{% static 'img/game2-min.jpg' %}" class="img-responsive" alt="">
+              <div class="menu-item-name">Game Zone</div>
+              <a href="page.html" style="background-color: rgb(21, 95, 155);">
+                <button>View</button>
+              </a>
+             </div>
+            <div class="menu-item">
+              <img src="{% static 'img/kids.jpg' %}" class="img-responsive" alt="">
+              <div class="menu-item-name">Kids Center</div>
+              <a href="page.html">
+                <button>View</button>
+              </a>
+             </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <div class="menu-section">
+            <h2 class="menu-section-title">Beauty</h2>
+            <div class="menu-item">
+              <img src="{% static 'img/shopping.jpg' %}" class="img-responsive" alt="">
+              <div class="menu-item-name">Shopping</div>
+              <a href="page.html" style="background-color: rgb(21, 95, 155);">
+                <button>View</button>
+              </a> </div>
+            <div class="menu-item">
+              <img src="{% static 'img/spa_1.jpg' %}" class="img-responsive" alt="">
+              <div class="menu-item-name">Beauty and spa</div>
+              <a href="page.html" style="background-color: rgb(21, 95, 155);">
+                <button>View</button>
+              </a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+   <!-- Vendor JS Files -->
+{% include 'review/scripts.html' %}
+
+</body>
+</html>

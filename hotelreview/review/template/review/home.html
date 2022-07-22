@@ -1,0 +1,68 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+{% include 'review/head.html' %}
+
+<body>
+
+    <!-- ======= Header ======= -->
+    {% include 'review/header.html' %}
+    <!-- End Header-->
+<body>
+
+  
+
+    <!-- Header -->
+    <header id="header">
+      <div class="intro">
+        <div class="overlay">
+          <div class="container">
+            <div class="row">
+              <div class="intro-text">
+                <h1>Enjoy your day </h1>
+                <p>GO BIG OR GO HOME!!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+   </body>
+<!---- Features Section -->
+<div id="features" class="text-center">
+  <div class="container">
+    <div class="section-title">
+      <h2>We Bring For You</h2>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">
+        <div class="features-item">
+          <h3>Entertainment</h3>
+          <img src="{% static 'img/skylight.jpg' %}" class="img-responsive" alt="">
+          <p>Our goal is to help you choose where you want to go.</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="features-item">
+          <h3>Beauty</h3>
+          <img src="{% static 'img/img2.jpg' %}" class="img-responsive" alt="">
+          <p>We fulfill our customers need by providing detailed information.</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="features-item">
+          <h3>Ambrosia</h3>
+          <img src="{% static 'img/1.jpg' %}" class="img-responsive" alt="">
+          <p>Variety is our strength.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Vendor JS Files -->
+{% include 'review/scripts.html' %}
+
+</body>
+</html>
